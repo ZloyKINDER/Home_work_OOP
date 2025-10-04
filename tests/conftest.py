@@ -16,11 +16,7 @@ def first_product():
 
 @pytest.fixture
 def second_product():
-    return Product(
-        name="Iphone 15",
-        description="512GB, Gray space",
-        price=210000.0,
-        quantity=8)
+    return Product(name="Iphone 15", description="512GB, Gray space", price=210000.0, quantity=8)
 
 
 @pytest.fixture
@@ -35,10 +31,7 @@ def third_product():
 
 @pytest.fixture
 def fourth_product():
-    return Product(name='55" QLED 4K',
-                   description="Фоновая подсветка",
-                   price=123000.0,
-                   quantity=7)
+    return Product(name='55" QLED 4K', description="Фоновая подсветка", price=123000.0, quantity=7)
 
 
 @pytest.fixture
@@ -59,5 +52,5 @@ def category_tv(fourth_product):
         description=(
             "Современный телевизор, который позволяет наслаждаться просмотром, станет вашим другом и помощником"
         ),
-        products=[fourth_product]
+        products=[fourth_product],
     )

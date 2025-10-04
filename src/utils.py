@@ -1,6 +1,5 @@
 import json
 import os
-from pprint import pprint
 
 from src.category import Category
 from src.product import Product
