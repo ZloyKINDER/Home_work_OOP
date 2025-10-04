@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6643bd4-dea0-4a30-9e59-b28c040e8b7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,15 +53,17 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.14.1_main.executor": "Run",
+    "Python.utils.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "feature/home__work__14__1",
-    "last_opened_file_path": "C:/Users/timyr/Desktop/PythonProject/Home_work_OOP/src"
+    "last_opened_file_path": "C:/Users/timyr/Desktop/PythonProject/Home_work_OOP/data"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\timyr\Desktop\PythonProject\Home_work_OOP\data" />
       <recent name="C:\Users\timyr\Desktop\PythonProject\Home_work_OOP\src" />
     </key>
   </component>
