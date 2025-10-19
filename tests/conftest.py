@@ -2,6 +2,7 @@ import pytest
 
 from src.category import Category
 from src.product import Product
+from src.product_iterator import ProductIterator
 
 
 @pytest.fixture
@@ -54,3 +55,8 @@ def category_tv(fourth_product):
         ),
         products=[fourth_product],
     )
+
+
+@pytest.fixture
+def product_iterator(category):
+    return ProductIterator(category)
