@@ -19,7 +19,6 @@ class Product:
     def __add__(self, other):
         return self.__price * self.quantity + other.__price * other.quantity
 
-
     @classmethod
     def new_product(cls, product_dict):
         return cls(**product_dict)
