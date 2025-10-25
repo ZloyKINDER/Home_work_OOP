@@ -1,9 +1,9 @@
 import pytest
 
 from src.category import Category
-from src.product_lawngrass import LawnGrass
 from src.product import Product
 from src.product_iterator import ProductIterator
+from src.product_lawngrass import LawnGrass
 from src.product_smartphone import Smartphone
 
 
