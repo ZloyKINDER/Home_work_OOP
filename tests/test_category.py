@@ -36,3 +36,12 @@ def test_category_products_setter(category, first_product):
 def test_category_str(category, category_tv):
     assert str(category) == "Смартфоны, количество продуктов: 27 шт."
     assert str(category_tv) == "Телевизоры, количество продуктов: 7 шт."
+
+
+def test_middle_price(category, category_without_products):
+    assert category.middle_price() == 140333.33333333334
+    assert category_without_products.middle_price() == 0
+
+
+def test_custom_exception(capsys, category):
+    assert len(category.products_in_list) == 3
